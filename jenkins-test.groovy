@@ -5,4 +5,7 @@ node {
     stage("new hello") {
         println("new Hello World new update")
     }
+    stage("bash") {
+        sh "ls -la"
+    }
 }
